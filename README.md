@@ -2,6 +2,12 @@
 
 Information and scripts to run Sensa on a BeagleBone board (BBB).
 
+**Table of Contents**
+- [Initial setup](#initial-setup)
+  - [Angstrom distribution](#angstrom-distribution)
+  - [Connection through USB](#connection-through-usb)
+  - [Time using ntp](#time-using-ntp)
+
 ## Initial setup
 
 ### Angstrom distribution
