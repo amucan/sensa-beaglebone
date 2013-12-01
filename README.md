@@ -7,6 +7,7 @@ Information and scripts to run Sensa on a BeagleBone board (BBB).
   - [Angstrom distribution](#angstrom-distribution)
   - [Connection through USB](#connection-through-usb)
   - [Time using ntp](#time-using-ntp)
+- [Update packages](#update-packages)
 
 ## Initial setup
 
@@ -43,4 +44,10 @@ To make these changes persistent, use the init script `net-up`:
 ### Time using ntp
 ```
 ntpdate -b -s -u pool.ntp.org
+```
+
+## Update packages
+```
+opkg --tmp-dir ~ update
+opkg --tmp-dir ~ upgrade
 ```
